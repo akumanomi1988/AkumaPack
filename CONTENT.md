@@ -15,7 +15,7 @@ Target: Minecraft Java 1.21.4 / data pack format 61.
 | medieval_castle / blackstone_castle | Castle | `akuma:castles/*` | matching castle function |
 | medieval_village / desert_outpost / fishing_hamlet | Settlement | `akuma:villages/*` | matching village function |
 | underground_dungeon / crypt_dungeon / spider_cavern | Dungeon | `akuma:dungeons/*` | matching dungeon function |
-| wizard_tower, ruined_portal, sky_island, lighthouse, ancient_shrine | Landmark | `akuma:structures/*` | matching structure function |
+| wizard_tower, ruined_portal, sky_island, lighthouse, ancient_shrine | Decorated landmark | `akuma:structures/*` plus a themed decoration pass | one matching structure function each |
 | arrow_trap, lava_trap, falling_floor | Trap | `akuma:traps/*` | matching trap function |
 
 ## Dynamic content

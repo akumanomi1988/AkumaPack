@@ -19,6 +19,8 @@ The pack uses data-pack format `61` and the modern singular resource folders (`f
 
 Static geometry is stored as binary Minecraft Structure Templates under `data/akuma/structure/`; their matching functions are deliberately tiny public/composition wrappers using `place template`. Dynamic behavior remains in `data/akuma/function/`: bosses, events, setup, utilities, particles, effects and entity spawns.
 
+Every public structure has one entry command. For example, `/function akuma:structures/wizard_tower` places its NBT template and then applies the complete themed decoration pass (lighting, furniture, props, particles and tagged display entities). The same pattern is used by `ruined_portal`, `sky_island`, `lighthouse` and `ancient_shrine`. Re-running one entry point cleans and recreates only its own tagged decorative entities.
+
 Boss rewards live in `loot_table/bosses`, chest/event rewards in `loot_table/chests` and `loot_table/events`. Boss-defeat notifications use native `advancement/bosses` triggers rather than a death-polling loop. `tags/function/load.json` calls `akuma:setup/load`; `tags/function/tick.json` dispatches only active tagged boss entities. The native entity-type tag `akuma:boss_entities` narrows that selector.
 
 ## Installation
