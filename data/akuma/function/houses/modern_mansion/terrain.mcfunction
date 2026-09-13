@@ -14,7 +14,9 @@ fill ~19 ~ ~5 ~28 ~ ~70 minecraft:smooth_stone
 fill ~29 ~ ~5 ~31 ~ ~70 minecraft:gray_concrete
 fill ~32 ~ ~5 ~34 ~ ~70 minecraft:polished_andesite
 fill ~35 ~ ~5 ~120 ~ ~7 minecraft:grass_block
-fill ~5 ~ ~5 ~7 ~ ~70 minecraft:oak_leaves[persistent=true]
+fill ~5 ~ ~5 ~7 ~ ~70 minecraft:grass_block
+fill ~5 ~1 ~8 ~7 ~2 ~70 minecraft:oak_leaves[persistent=true]
+fill ~118 ~1 ~8 ~120 ~2 ~70 minecraft:oak_leaves[persistent=true]
 fill ~5 ~ ~5 ~120 ~ ~7 minecraft:grass_block
 fill ~10 ~ ~8 ~16 ~ ~8 minecraft:stone_brick_slab[type=bottom]
 fill ~10 ~ ~9 ~16 ~ ~9 minecraft:stone_brick_slab[type=bottom]
