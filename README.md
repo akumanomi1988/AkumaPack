@@ -8,7 +8,7 @@ The pack uses data-pack format `61` and the modern singular resource folders (`f
 
 ## Current status
 
-- 112 `.mcfunction` files for public APIs, composition, setup and runtime logic.
+- 124 `.mcfunction` files for public APIs, composition, setup and runtime logic.
 - 46 binary Minecraft Structure Templates (`.nbt`) for static geometry.
 - 11 loot tables for bosses, dungeons, structures and events.
 - 5 advancements for boss defeat detection.
@@ -40,7 +40,8 @@ Run `/function akuma:utilities/help` for a short introduction and `/function aku
 - `/function akuma:houses/desert_house` — sandstone desert dwelling.
 - `/function akuma:houses/treehouse` — elevated cabin in persistent foliage.
 - `/function akuma:houses/woodland_mansion` — dark-oak multi-room mansion.
-- `/function akuma:houses/quartz_mansion` — bright quartz mansion.
+- `/function akuma:houses/quartz_mansion` - bright quartz mansion.
+- `/function akuma:houses/modern_mansion` or `/function akuma:modern_mansion` - large 110 x 60 x 26 modern luxury mansion with three partial levels, pool, garage, gardens, terraces and furnished rooms.
 
 ### Settlements and castles
 

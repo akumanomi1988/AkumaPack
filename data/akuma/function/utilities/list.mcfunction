@@ -1,6 +1,6 @@
 tellraw @s [{"text":"=== AKUMAPACK CATALOGUE ===","color":"dark_purple","bold":true}]
 tellraw @s [{"text":"Houses: ","color":"gold"},{"text":"modern_house, japanese_house, cottage_house, desert_house, treehouse","color":"white"}]
-tellraw @s [{"text":"Mansions: ","color":"gold"},{"text":"woodland_mansion, quartz_mansion","color":"white"}]
+tellraw @s [{"text":"Mansions: ","color":"gold"},{"text":"modern_mansion, woodland_mansion, quartz_mansion","color":"white"}]
 tellraw @s [{"text":"Castles: ","color":"gold"},{"text":"medieval_castle, blackstone_castle","color":"white"}]
 tellraw @s [{"text":"Villages: ","color":"gold"},{"text":"medieval_village, desert_outpost, fishing_hamlet","color":"white"}]
 tellraw @s [{"text":"Dungeons: ","color":"gold"},{"text":"underground_dungeon, crypt_dungeon, spider_cavern","color":"white"}]

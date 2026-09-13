@@ -11,6 +11,7 @@ Target: Minecraft Java 1.21.4 / data pack format 61.
 | cottage_house | House | `akuma:houses/cottage_house/build` | `akuma:houses/cottage_house` |
 | desert_house | House | `akuma:houses/desert_house/build` | `akuma:houses/desert_house` |
 | treehouse | House | `akuma:houses/treehouse/*` | `akuma:houses/treehouse` |
+| modern_mansion | Large 110 x 66 x 28 modern luxury mansion with partial third level, pool, garage, gardens and furnished rooms | `akuma:houses/modern_mansion/*` | `akuma:houses/modern_mansion` and root alias `akuma:modern_mansion` |
 | woodland_mansion / quartz_mansion | Mansion | `akuma:houses/*` | matching house function |
 | medieval_castle / blackstone_castle | Castle | `akuma:castles/*` | matching castle function |
 | medieval_village / desert_outpost / fishing_hamlet | Settlement | `akuma:villages/*` | matching village function |
