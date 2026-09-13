@@ -1,6 +1,19 @@
 # AkumaPack
 
-Reusable building and encounter library for **Minecraft Java Edition 1.21.4**. It uses data-pack format `61` and the modern singular resource folders (`function`, `structure`, `loot_table`, `advancement`, and `tags`). No Minecraft version was detected in the empty project workspace, so 1.21.4 is the explicit target.
+Reusable building and encounter library for **Minecraft Java Edition 1.21.4**.
+
+Repository: [github.com/akumanomi1988/AkumaPack](https://github.com/akumanomi1988/AkumaPack) (private)
+
+The pack uses data-pack format `61` and the modern singular resource folders (`function`, `structure`, `loot_table`, `advancement`, and `tags`). No Minecraft version was detected in the original project workspace, so 1.21.4 is the explicit target.
+
+## Current status
+
+- 92 `.mcfunction` files for public APIs, composition, setup and runtime logic.
+- 46 binary Minecraft Structure Templates (`.nbt`) for static geometry.
+- 11 loot tables for bosses, dungeons, structures and events.
+- 5 advancements for boss defeat detection.
+- Native load/tick tags with a lightweight active-boss dispatcher.
+- Automated checks available with `python tools/validate_datapack.py` from the project workspace.
 
 ## Architecture
 
