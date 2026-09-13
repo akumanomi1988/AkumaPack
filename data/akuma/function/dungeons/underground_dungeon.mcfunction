@@ -1,0 +1,2 @@
+function akuma:dungeons/underground_dungeon/chambers
+function akuma:dungeons/underground_dungeon/rewards

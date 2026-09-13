@@ -1,0 +1,2 @@
+summon minecraft:evoker ~13 ~1 ~13 {Tags:["akuma.boss","akuma.necromancer"],CustomName:'{"text":"The Necromancer","color":"dark_purple","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b,Health:100f,attributes:[{id:"minecraft:generic.max_health",base:100.0},{id:"minecraft:generic.movement_speed",base:0.35}],DeathLootTable:"akuma:bosses/necromancer"}
+scoreboard players set @e[type=minecraft:evoker,tag=akuma.necromancer,sort=nearest,limit=1,distance=..5] akuma_timer 0

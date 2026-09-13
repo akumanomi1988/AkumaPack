@@ -1,0 +1,1 @@
+{"criteria":{"defeat":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"nbt":"{Tags:[\"akuma.necromancer\"]}"}}}},"rewards":{"function":"akuma:bosses/rewards/announce_victory"}}

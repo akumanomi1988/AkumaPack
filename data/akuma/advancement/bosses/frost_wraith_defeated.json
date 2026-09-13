@@ -1,0 +1,1 @@
+{"criteria":{"defeat":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"nbt":"{Tags:[\"akuma.frost_wraith\"]}"}}}},"rewards":{"function":"akuma:bosses/rewards/announce_victory"}}

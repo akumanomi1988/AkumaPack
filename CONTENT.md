@@ -1,0 +1,31 @@
+# AkumaPack Content Manifest
+
+Target: Minecraft Java 1.21.4 / data pack format 61.
+
+## Structures
+
+| Content | Type | Template / composition entry | Public entry point |
+|---|---|---|---|
+| modern_house | House | `akuma:houses/modern_house/*` | `akuma:houses/modern_house` |
+| japanese_house | House | `akuma:houses/japanese_house/*` | `akuma:houses/japanese_house` |
+| cottage_house | House | `akuma:houses/cottage_house/build` | `akuma:houses/cottage_house` |
+| desert_house | House | `akuma:houses/desert_house/build` | `akuma:houses/desert_house` |
+| treehouse | House | `akuma:houses/treehouse/*` | `akuma:houses/treehouse` |
+| woodland_mansion / quartz_mansion | Mansion | `akuma:houses/*` | matching house function |
+| medieval_castle / blackstone_castle | Castle | `akuma:castles/*` | matching castle function |
+| medieval_village / desert_outpost / fishing_hamlet | Settlement | `akuma:villages/*` | matching village function |
+| underground_dungeon / crypt_dungeon / spider_cavern | Dungeon | `akuma:dungeons/*` | matching dungeon function |
+| wizard_tower, ruined_portal, sky_island, lighthouse, ancient_shrine | Landmark | `akuma:structures/*` | matching structure function |
+| arrow_trap, lava_trap, falling_floor | Trap | `akuma:traps/*` | matching trap function |
+
+## Dynamic content
+
+| Boss | Arena/template | Spawn | Loot |
+|---|---|---|---|
+| fire_golem | `akuma:bosses/fire_golem/arena` | `akuma:bosses/fire_golem/spawn` | `akuma:bosses/fire_golem` |
+| necromancer | `akuma:bosses/necromancer/arena` | `akuma:bosses/necromancer/spawn` | `akuma:bosses/necromancer` |
+| frost_wraith | `akuma:bosses/frost_wraith/spawn` | `akuma:bosses/frost_wraith/spawn` | `akuma:bosses/frost_wraith` |
+| forest_guardian | `akuma:bosses/forest_guardian/spawn` | `akuma:bosses/forest_guardian/spawn` | `akuma:bosses/forest_guardian` |
+| void_knight | `akuma:bosses/void_knight/spawn` | `akuma:bosses/void_knight/spawn` | `akuma:bosses/void_knight` |
+
+Events: `meteor_shower`, `merchant_caravan`, `haunted_night`. Utilities: `help`, `list`, `load` (compatibility wrapper). Setup: `akuma:setup/load` and `akuma:setup/scoreboards`.
