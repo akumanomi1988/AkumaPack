@@ -8,12 +8,13 @@ The pack uses data-pack format `61` and the modern singular resource folders (`f
 
 ## Current status
 
-- 92 `.mcfunction` files for public APIs, composition, setup and runtime logic.
+- 112 `.mcfunction` files for public APIs, composition, setup and runtime logic.
 - 46 binary Minecraft Structure Templates (`.nbt`) for static geometry.
 - 11 loot tables for bosses, dungeons, structures and events.
 - 5 advancements for boss defeat detection.
 - Native load/tick tags with a lightweight active-boss dispatcher.
 - Automated checks available with `python tools/validate_datapack.py` from the project workspace.
+- Houses, castles, villages, dungeons, traps, events and boss arenas now include themed decoration passes with furniture, lighting, props, particles and tagged display entities.
 
 ## Architecture
 

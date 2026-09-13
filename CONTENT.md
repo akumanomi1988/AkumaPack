@@ -28,4 +28,4 @@ Target: Minecraft Java 1.21.4 / data pack format 61.
 | forest_guardian | `akuma:bosses/forest_guardian/spawn` | `akuma:bosses/forest_guardian/spawn` | `akuma:bosses/forest_guardian` |
 | void_knight | `akuma:bosses/void_knight/spawn` | `akuma:bosses/void_knight/spawn` | `akuma:bosses/void_knight` |
 
-Events: `meteor_shower`, `merchant_caravan`, `haunted_night`. Utilities: `help`, `list`, `load` (compatibility wrapper). Setup: `akuma:setup/load` and `akuma:setup/scoreboards`.
+Events: `meteor_shower`, `merchant_caravan`, `haunted_night`, each with tagged encounter entities and ambient decoration. Traps: `arrow_trap`, `lava_trap`, `falling_floor`, with warning/lighting details. All five bosses now have enriched arena dressing and the existing timed abilities. Utilities: `help`, `list`, `load` (compatibility wrapper). Setup: `akuma:setup/load` and `akuma:setup/scoreboards`.

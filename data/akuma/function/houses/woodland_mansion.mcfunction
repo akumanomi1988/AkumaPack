@@ -1,2 +1,3 @@
 function akuma:houses/woodland_mansion/shell
 function akuma:houses/woodland_mansion/interior
+function akuma:houses/woodland_mansion/decoration
